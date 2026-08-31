@@ -1,0 +1,30 @@
+.section-interests {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.interests-content {
+  text-align: center;
+  padding: var(--space-2xl) 0;
+}
+
+.interests-label {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+  font-weight: 400;
+}
+
+.interests-topics {
+  font-size: var(--text-3xl);
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .interests-topics {
+    font-size: var(--text-2xl);
+  }
+}
