@@ -2,6 +2,8 @@
 
 A minimalist, responsive developer portfolio built with React and TypeScript.
 
+🌐 **Live Site**: [https://ashwinbhatk-portfolio.vercel.app/](https://ashwinbhatk-portfolio.vercel.app/)
+
 ## Features
 
 - **Clean Design**: Warm brown color palette with minimalist aesthetic
@@ -105,10 +107,37 @@ Portfolio/
 
 ### Interactive Elements
 
-- Pixel art cat mascot with meow/purr interaction
-- Custom paw cursor (on hover-capable devices)
+- Hand-drawn sketch-style cat doodles in navigation
+- Interactive cat mascot with meow/purr interaction
+- Custom hand-drawn paw cursor (on hover-capable devices)
 - Smooth scrolling navigation
 - Mobile hamburger menu
+
+## Deployment
+
+This portfolio is deployed on [Vercel](https://vercel.com/) with automatic deployments from the `master` branch.
+
+**Live URL**: [https://ashwinbhatk-portfolio.vercel.app/](https://ashwinbhatk-portfolio.vercel.app/)
+
+### Deploy Your Own
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashwinbhatk/Portfolio)
+
+1. Fork this repository
+2. Connect your GitHub account to Vercel
+3. Import the forked repository
+4. Vercel will automatically detect the Vite configuration
+5. Deploy!
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# The dist/ folder contains the production build
+# Upload the contents to any static hosting service
+```
 
 ## Browser Support
 
