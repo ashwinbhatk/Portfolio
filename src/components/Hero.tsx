@@ -6,6 +6,12 @@ export const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="hero-container">
+        <div className="hero-photo-placeholder">
+          <div className="hero-photo-frame">
+            <span className="hero-photo-text">Photo</span>
+          </div>
+        </div>
+
         <div className="hero-content">
           <h1 className="hero-name">{config.name}</h1>
           <p className="hero-title">{config.title}</p>

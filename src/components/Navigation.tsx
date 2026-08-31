@@ -20,10 +20,6 @@ export const Navigation = () => {
   return (
     <nav className="navigation" role="navigation">
       <div className="nav-container">
-        <a href="#" className="nav-brand">
-          {config.name}
-        </a>
-
         <button
           className="nav-toggle"
           onClick={() => setIsMenuOpen(!isMenuOpen)}

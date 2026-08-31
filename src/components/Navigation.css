@@ -12,15 +12,8 @@
   margin: 0 auto;
   padding: var(--space-md) var(--space-lg);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-}
-
-.nav-brand {
-  font-size: var(--text-lg);
-  font-weight: 600;
-  color: var(--color-text);
-  text-decoration: none;
 }
 
 .nav-toggle {
