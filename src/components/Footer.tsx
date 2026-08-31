@@ -8,24 +8,20 @@ export const Footer = () => {
         <p className="footer-text">© 2026 {config.name}</p>
         <div className="footer-mascot">
           <svg
-            width="24"
-            height="24"
-            viewBox="0 0 32 32"
+            width="32"
+            height="32"
+            viewBox="0 0 100 100"
             xmlns="http://www.w3.org/2000/svg"
             className="footer-cat"
           >
-            <path d="M 8 4 L 8 10 L 10 10 L 10 6 L 12 6 L 12 4 Z" fill="var(--color-accent)" />
-            <path d="M 20 4 L 20 6 L 22 6 L 22 10 L 24 10 L 24 4 Z" fill="var(--color-accent)" />
-            <rect x="10" y="8" width="12" height="14" fill="var(--color-accent)" />
-            <rect x="12" y="12" width="3" height="3" fill="var(--color-bg)" />
-            <rect x="17" y="12" width="3" height="3" fill="var(--color-bg)" />
-            <rect x="15" y="17" width="2" height="2" fill="var(--color-bg)" />
-            <line x1="6" y1="16" x2="10" y2="16" stroke="var(--color-bg)" strokeWidth="1" />
-            <line x1="6" y1="18" x2="10" y2="18" stroke="var(--color-bg)" strokeWidth="1" />
-            <line x1="22" y1="16" x2="26" y2="16" stroke="var(--color-bg)" strokeWidth="1" />
-            <line x1="22" y1="18" x2="26" y2="18" stroke="var(--color-bg)" strokeWidth="1" />
-            <line x1="15" y1="19" x2="14" y2="20" stroke="var(--color-bg)" strokeWidth="1" />
-            <line x1="17" y1="19" x2="18" y2="20" stroke="var(--color-bg)" strokeWidth="1" />
+            <ellipse cx="50" cy="55" rx="22" ry="20" fill="var(--color-accent)" />
+            <path d="M 33 43 Q 30 30 37 36 Q 37 43 33 43 Z" fill="var(--color-accent)" />
+            <path d="M 67 43 Q 70 30 63 36 Q 63 43 67 43 Z" fill="var(--color-accent)" />
+            <ellipse cx="43" cy="52" rx="2.5" ry="4" fill="var(--color-bg)" />
+            <ellipse cx="57" cy="52" rx="2.5" ry="4" fill="var(--color-bg)" />
+            <path d="M 50 58 L 48 61 L 52 61 Z" fill="var(--color-bg)" opacity="0.7" />
+            <path d="M 50 61 Q 46 63 44 61" stroke="var(--color-bg)" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.6" />
+            <path d="M 50 61 Q 54 63 56 61" stroke="var(--color-bg)" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.6" />
           </svg>
         </div>
       </div>

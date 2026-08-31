@@ -12,8 +12,23 @@
   margin: 0 auto;
   padding: var(--space-md) var(--space-lg);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+.nav-doodle {
+  display: flex;
+  align-items: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 .nav-toggle {
@@ -103,6 +118,10 @@
 }
 
 @media (max-width: 768px) {
+  .nav-doodle {
+    display: none;
+  }
+
   .nav-toggle {
     display: flex;
   }
@@ -153,5 +172,9 @@
   
   .nav-menu {
     transition: none;
+  }
+  
+  .nav-doodle {
+    animation: none;
   }
 }
